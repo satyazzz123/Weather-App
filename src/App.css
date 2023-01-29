@@ -1,38 +1,83 @@
-.App {
+/* .App{
+  background: url('https://bergundluft.ch/static/images/content/slide-3-mask.jpg');
+  height: 300rem;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 42rem;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */
+.out{
+  background: url('https://cdn126.picsart.com/216206680005201.gif?to=crop&type=webp&r=40x40&q=50');
+  background-position: cover;
+  background-repeat: no-repeat;
+
+
+  border: 2rem solid;
+}
+
+.weather-part{
+  background: url('https://d1whtlypfis84e.cloudfront.net/guides/wp-content/uploads/2019/07/27114414/Summer-season-1024x576.jpg');
+  height: 72rem;
+background-repeat: no-repeat;
+background-size: cover;
+color: white;
+font-size: 4.2rem;
+
+}
+.weather-part-1{
+  background: url('https://www.almanac.com/sites/default/files/users/The%20Editors/winter-snow-tracks_full_width.jpg');
+  height: 60.0rem;
+background-repeat: no-repeat;
+background-size: cover;
+color: white;
+font-size: 4.2rem;
+
+}
+.temp{
+  position: absolute;
+  left: 12.0rem;
+  top: 10.0rem;
+
+  background-color: rgba(246, 255, 255, 0.25);
+}
+#search{
+  position: absolute;
+  top: 2rem;
+    left: 10em;
+  width: 50rem;
+  height: 3.5rem;
+  border-radius: 3rem;
+  background-color: rgba(0,0,0,0.5);
+  color: aliceblue;
+  text-align: center;
+  font-size: 2.2rem;
+}
+#search::placeholder{
+  color: aliceblue;
   text-align: center;
 }
+.suggestions{
+  height: 50rem;
+  background: url('https://img.freepik.com/free-photo/people-walking-together-outdoors-medium-shot_23-2149033483.jpg?w=2000');
+  background-size: cover;
+ 
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.overlay{
+  height: 50rem;
+  background-image: linear-gradient(
+    130deg
+    , rgba(2, 1, 1, 0.46) 0%, #686262 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2.5rem;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media(max-width:40rem){
+  html{
+ font-size: 45%;
   }
 }
